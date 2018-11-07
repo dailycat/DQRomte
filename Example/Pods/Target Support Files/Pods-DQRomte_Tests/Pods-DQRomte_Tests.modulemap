@@ -1,0 +1,6 @@
+framework module Pods_DQRomte_Tests {
+  umbrella header "Pods-DQRomte_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

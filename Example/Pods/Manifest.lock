@@ -1,0 +1,16 @@
+PODS:
+  - DQRomte (0.1.0)
+
+DEPENDENCIES:
+  - DQRomte (from `../`)
+
+EXTERNAL SOURCES:
+  DQRomte:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DQRomte: 54ca6529be018edb390df90c00bd60cb5063e8b7
+
+PODFILE CHECKSUM: dd184094ec23d719a887eb73ae75bb9dc7b42bfd
+
+COCOAPODS: 1.5.3

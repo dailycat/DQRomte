@@ -1,0 +1,6 @@
+framework module DQRomte {
+  umbrella header "DQRomte-umbrella.h"
+
+  export *
+  module * { export * }
+}
