@@ -1,15 +1,36 @@
 PODS:
-  - DQRomte (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - DQRomte (1):
+    - AFNetworking (~> 3.1.0)
 
 DEPENDENCIES:
   - DQRomte (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   DQRomte:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DQRomte: 54ca6529be018edb390df90c00bd60cb5063e8b7
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DQRomte: 4370ff48ea197c1b849e3ddf12bc8e91f6d0acbc
 
 PODFILE CHECKSUM: dd184094ec23d719a887eb73ae75bb9dc7b42bfd
 

@@ -1,22 +1,27 @@
 {
   "name": "DQRomte",
-  "version": "0.1.0",
+  "version": "1",
   "summary": "A short description of DQRomte.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1520682171@qq.com/DQRomte",
+  "homepage": "https://github.com/dailycat/DQRomte",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1520682171@qq.com": "cise.zhucj@waibao.cntaiping.com"
+    "1520682171@qq.com": "deqing_ios@163.com"
   },
   "source": {
-    "git": "https://github.com/1520682171@qq.com/DQRomte.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/dailycat/DQRomte",
+    "tag": "1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DQRomte/Classes/**/*"
+  "source_files": "DQRomte/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.1.0"
+    ]
+  }
 }
