@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DQRomte_Example' do
+  pod 'DQRomte', :path => '../'
+
+  target 'DQRomte_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
